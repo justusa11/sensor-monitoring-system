@@ -1,0 +1,12 @@
+__pycache__/                # Python bytecode cache
+*.pyc                       # Compiled Python files
+*.db                        # Any database files (e.g., sensor_data.db)
+*.sqlite3                   # Explicit SQLite3 files
+.env                        # Your main environment file
+.env.*                      # Any variants like .env.dev or .env.local
+*.log                       # Log files
+.vscode/                    # VS Code settings folder
+.idea/                      # JetBrains (PyCharm) settings
+.DS_Store                   # macOS system files
+*.egg-info/                 # Python packaging metadata
+docker-compose.override.yml  # Local overrides to docker-compose
