@@ -56,7 +56,25 @@ This project demonstrates core software development and system integration skill
 - Streamlit dashboard for interactive visualization  
 - Docker-based orchestration of multiple components
 
-<pre> ### 📁 Project Structure ```text sensor-monitoring-system/ ├── backend/ # FastAPI application │ └── main.py │ ├── dashboard/ # Streamlit dashboard │ └── app.py │ ├── producer/ # Simulates real-time sensor data │ └── producer.py │ ├── tests/ # Placeholder for future unit tests │ ├── docker-compose.yml # Multi-container orchestration ├── Dockerfile.* # Dockerfiles for backend, dashboard, producer ├── README.md └── requirements.txt ``` </pre>   
+```
+sensor-monitoring-system/
+│
+├── backend/            # FastAPI application
+│   └── main.py         
+│
+├── dashboard/          # Streamlit dashboard
+│   └── app.py          
+│
+├── producer/           # Simulates real-time sensor data
+│   └── producer.py     
+│
+├── tests/              # Placeholder for future unit tests
+│
+├── docker-compose.yml  # Multi-container orchestration
+├── Dockerfile.*        # Dockerfiles for backend, dashboard, producer
+├── README.md           
+└── requirements.txt    
+```
 
 
 Aspiring software developer passionate about real-time systems and backend architecture.
